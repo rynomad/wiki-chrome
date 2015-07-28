@@ -3,8 +3,6 @@ window.http = require("http-chrome");
 window.wiki = require("./tmp/server.js");
 window.fs = require("browserify-fs");
 window._http = require("http")
-window.teletunnel = require("teletunnel")
-window.trie = require("trie-search")
 window.app = wiki({_isChrome:true
                 , root: "/"
                 , data: "data"
