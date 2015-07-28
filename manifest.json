@@ -1,0 +1,27 @@
+{
+  "name": "Wiki",
+  "description": "Runs a federated Wiki server from chrome.",
+  "version": "0.3.1",
+  "manifest_version": 2,
+  "sockets": {
+    "udp": {
+      "send": "*"
+    },
+    "tcp": {
+      "connect": "*"
+    },
+    "tcpServer": {
+      "listen": "*"
+    }
+  },
+  "permissions": [
+      "storage",
+      "webview"
+  ],
+
+  "app": {
+    "background": {
+      "scripts": ["./dist/background.js", "./dist/assets.js"]
+    }
+  }
+}
