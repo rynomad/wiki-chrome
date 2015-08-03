@@ -1,7 +1,7 @@
 Wiki-Chrome
 ---
 
-A packaging of wiki's express server as a chrome app. At this time it serves on port 3000 and accepts all edits (Persona has been removed for this exploration).
+A packaging of [wiki](https://github.com/fedwiki/wiki-node-server)'s express server as a chrome app. At this time it serves on port 3000 and accepts all edits (Persona has been removed for this exploration).
 
 Installation
 ---
